@@ -1,0 +1,19 @@
+{
+    "name": "myself-component/first",
+    "description": "this is my first component managermant",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shilong.zhang",
+            "email": "shilong.zhang@vhall.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+	"psr-4": {
+		"myselfComponent\\first\\": "src"
+	}
+    }
+}
